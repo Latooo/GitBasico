@@ -1,0 +1,997 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#enviar
+{
+    color: white;
+    background-color: rgb(246, 112, 3);
+    width: 20vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+.barras 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1.8vw;
+    height: 0.8vw;
+    cursor: pointer;
+}
+.bar {
+    width: 100%;
+    height: 0.3vw;
+    background-color: #333;
+    margin: 6px 0;
+  }
+
+.icono
+{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#icono
+{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.añadir
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+#foto
+{
+    width: 2vw;
+    height: 2vw;
+}
+.textañadir
+{
+    position: absolute;
+    top: 5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+#text
+{
+    font-size: 1.5vw;
+}
+.refrescar
+{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.textrefrescar
+{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.eliminar
+{
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.texteliminar
+{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.reportar
+{
+    position: absolute;
+    top: 5%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+.textreportar
+{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.ayuda
+{
+    position: absolute;
+    top: 5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+.textayuda
+{
+    position: absolute;
+    top: 5%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.user
+{
+    position: absolute;
+    top: 5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.campanita
+{
+    position: absolute;
+    top: 5%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+}
+.settings
+{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+}
+#botoncitos
+{
+    width: 1vw;
+    height: 1.5vw;
+}
+#foto2
+{
+    width: 3vw;
+    height: 3vw;
+}
+.titulo
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#titulo
+{
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+.subtitulo
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#subtitulo
+{
+    font-size: 1.2vw;
+    text-align: center;
+}
+
+#titulos{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.indicador{
+    position: absolute;
+    top: 27%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.descripcion{
+    position: absolute;
+    top: 27%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.categoria{
+    position: absolute;
+    top: 27%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.fechainicio{
+    position: absolute;
+    top: 27%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.fechafinal{
+    position: absolute;
+    top: 27%;
+    left: 58.5%;
+    transform: translate(-50%, -50%);
+}
+
+.formula{
+    position: absolute;
+    top: 27%;
+    left: 68.5%;
+    transform: translate(-50%, -50%);
+}
+
+.frecuencia{
+    position: absolute;
+    top: 27%;
+    left: 75.5%;
+    transform: translate(-50%, -50%);
+}
+
+.cumplimiento{
+    position: absolute;
+    top: 27%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+}
+
+.area{
+    position: absolute;
+    top: 27%;
+    left: 91%;
+    transform: translate(-50%, -50%);
+}
+
+#textos{
+    font-size: 1.2vw;
+    color: gray;
+}
+
+.r1{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    transform: translate(-50%, -50%);
+}
+
+.r2{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.r3{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.r4{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.r5{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.r6{
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+.r7{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.r8{
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.r9{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.b1{
+    position: absolute;
+    top: 31.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+
+.b2{
+    position: absolute;
+    top: 39.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+
+.b3{
+    position: absolute;
+    top: 47.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.b4{
+    position: absolute;
+    top: 55.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.b5{
+    position: absolute;
+    top: 63.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.b6{
+    position: absolute;
+    top: 71.5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.seccion1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 33%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion2{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 41%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+.seccion3{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 49%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion4{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 57%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion5{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 65%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion6{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 93vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 73%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+<<<<<<< HEAD:css/main.css
+<<<<<<< HEAD:css/main.css
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(233, 61, 61) 31%, rgb(243, 242, 242) 0);    
+  }
+
+  .progress-bar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(233, 61, 61) 25%, rgb(243, 242, 242) 0);    
+  }
+
+  .progress-bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(75, 233, 61) 80%, rgb(243, 242, 242) 0);    
+  }
+
+  .progress-bar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(233, 61, 61) 32%, rgb(243, 242, 242) 0);    
+  }
+  
+  .progress-bar4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(75, 233, 61) 95%, rgb(243, 242, 242) 0);    
+  }
+ 
+  .progress-bar5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(233, 159, 61) 75%, rgb(243, 242, 242) 0);    
+  }
+  .p5{
+    position: absolute;
+    top: 0%;
+    left: 87%;
+  }
+  .p4{
+    position: absolute;
+    top: 0%;
+    left: 87%;
+  }
+  .p3{
+    position: absolute;
+    top: 0%;
+    left: 87%;
+  }
+  .p2{
+    position: absolute;
+    top: 0%;
+    left: 87%;
+  }
+  .p1{
+    position: absolute;
+    top: 0%;
+    left: 87%;
+  }
+<<<<<<< HEAD:css/main.css
+  
+=======
+=======
+>>>>>>> 4942f61 (style :lipstick: Responsive de main):main/main.css
+  #enviar
+  {
+    cursor: pointer;
+  }
+=======
+
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css
+  #popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  #popup:target {
+    display: block;
+  }
+
+  #overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+
+  #overlay:target {
+    display: block;
+  }
+
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #popup
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    background-color: white;
+    z-index: 9999;
+}
+.equis
+{
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+#equis
+{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.nameuser
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#email
+{
+    font-size: 1vw;
+    text-align: center;
+}
+#hola
+{
+    font-size: 1.5vw;
+    text-align: center;
+}
+#imgpu
+{
+    width: 5vw;
+    height: 5vw;
+}
+.imgpu
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.enviar
+{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#popup2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  #popup2:target {
+    display: block;
+  }
+
+  #overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+
+  #overlay:target {
+    display: block;
+  }
+
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #popup2
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    background-color: white;
+    z-index: 9999;
+}
+.perfil
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.configuracion
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+<<<<<<< HEAD:css/main.css
+>>>>>>> 71e74e5 (feat :sparkles: Se añadieron pop ups):main/main.css
+=======
+/*---------------------------------------------------------*/
+@property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes progress {
+   to { --progress-value: 31; }
+  }
+  
+  .progress-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 2vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(236, 50, 50) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: progress 2s 1 forwards;
+  }
+  
+  .progress-bar::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: progress 2s 1 forwards;
+  }
+  .progress-bar progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+  /*---------------------------------------------------------*/
+  @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes a-progress {
+   to { --progress-value: 25; }
+  }
+  
+  .progress-bar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 1vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(230, 32, 32) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: a-progress 2s 1 forwards;
+  }
+  
+  .progress-bar1::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: a-progress 2s 1 forwards;
+}
+.progress-bar1 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+  /*---------------------------------------------------------*/
+  @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes e-progress {
+   to { --progress-value: 80; }
+  }
+  
+  .progress-bar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 1vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(105, 255, 113) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: e-progress 2s 1 forwards;
+  }
+  
+  .progress-bar2::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: e-progress 2s 1 forwards;
+}
+.progress-bar2 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+  /*---------------------------------------------------------*/
+  @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes i-progress {
+   to { --progress-value: 32; }
+  }
+  
+  .progress-bar3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 1vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(230, 61, 61) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: i-progress 2s 1 forwards;
+  }
+  
+  .progress-bar3::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: i-progress 2s 1 forwards;
+}
+.progress-bar3 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+  /*---------------------------------------------------------*/
+  @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes o-progress {
+   to { --progress-value: 95; }
+  }
+  
+  .progress-bar4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 1vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(105, 255, 113) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: o-progress 2s 1 forwards;
+  }
+  
+  .progress-bar4::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: o-progress 2s 1 forwards;
+}
+.progress-bar4 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+  /*---------------------------------------------------------*/
+  @property --progress-value {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+  }
+  
+  @keyframes u-progress {
+   to { --progress-value: 75; }
+  }
+  
+  .progress-bar5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    width: 2.6vw;
+    height: 2.6vw;
+    border-radius: 50%;
+    font-size: 1vw;
+    background: 
+      radial-gradient(closest-side, white 79%, transparent 80% 100%),
+      conic-gradient(rgb(255, 128, 0) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+    animation: u-progress 2s 1 forwards;
+  }
+  
+  .progress-bar5::before {
+    counter-reset: percentage var(--progress-value);
+    content: counter(percentage) '%';
+    font-size: 1vw;
+    animation: u-progress 2s 1 forwards;
+}
+.progress-bar5 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
+/*----------------------------------------------------------------------------------------------------------------------*/
+<<<<<<< HEAD:css/main.css
+>>>>>>> 4942f61 (style :lipstick: Responsive de main):main/main.css
+=======
+
+<<<<<<< HEAD:css/main.css
+.rx{
+    width: 0.1vw;
+}
+<<<<<<< HEAD:css/main.css
+>>>>>>> 0e82691 (feat :sparkles: Creacion modulo eliminar):main/main.css
+=======
+#enviar
+=======
+#enviar1
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css
+{
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white;
+}
+#enviar2
+{
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
+}
+#enviar3
+{
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
+}
+#enviar4
+{
+<<<<<<< HEAD:css/main.css
+<<<<<<< HEAD:css/main.css
+<<<<<<< HEAD:css/main.css
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+>>>>>>> b4ea247 (style :lipstick: Correccion de estilo de css):main/main.css
+=======
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+}
+>>>>>>> ef27a8f (fix :bug: Arreglos de estilos y medidas):main/main.css
+=======
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+}
+>>>>>>> 1d05591 (style :lipstick: Se añadieron colores de botones):main/main.css
+=======
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
+}
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css
