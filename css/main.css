@@ -1,16 +1,16 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.enviar
-{
-    position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 #enviar
 {
     color: white;
+    background-color: rgb(246, 112, 3);
+    width: 20vw;
+    height: 3.5vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5vw;
+    cursor: pointer;
 }
 
 .barras 
@@ -197,56 +197,56 @@ body{
 .descripcion{
     position: absolute;
     top: 27%;
-    left: 22%;
+    left: 23%;
     transform: translate(-50%, -50%);
 }
 
 .categoria{
     position: absolute;
     top: 27%;
-    left: 37%;
+    left: 38%;
     transform: translate(-50%, -50%);
 }
 
 .fechainicio{
     position: absolute;
     top: 27%;
-    left: 45%;
+    left: 47%;
     transform: translate(-50%, -50%);
 }
 
 .fechafinal{
     position: absolute;
     top: 27%;
-    left: 56%;
+    left: 58.5%;
     transform: translate(-50%, -50%);
 }
 
 .formula{
     position: absolute;
     top: 27%;
-    left: 66%;
+    left: 68.5%;
     transform: translate(-50%, -50%);
 }
 
 .frecuencia{
     position: absolute;
     top: 27%;
-    left: 73%;
+    left: 75.5%;
     transform: translate(-50%, -50%);
 }
 
 .cumplimiento{
     position: absolute;
     top: 27%;
-    left: 81%;
+    left: 84%;
     transform: translate(-50%, -50%);
 }
 
 .area{
     position: absolute;
     top: 27%;
-    left: 88%;
+    left: 91%;
     transform: translate(-50%, -50%);
 }
 
@@ -321,105 +321,106 @@ body{
 .b1{
     position: absolute;
     top: 31.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 
 .b2{
     position: absolute;
     top: 39.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 
 .b3{
     position: absolute;
     top: 47.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 .b4{
     position: absolute;
     top: 55.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 .b5{
     position: absolute;
     top: 63.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 .b6{
     position: absolute;
     top: 71.5%;
-    left: 94%;
+    left: 97%;
     transform: translate(-50%, -50%);
 }
 .seccion1{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 33%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .seccion2{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 41%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 .seccion3{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 49%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .seccion4{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 57%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .seccion5{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 65%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
 
 .seccion6{
     border: 1px solid gray;
     border-radius: 20px;
-    width: 91vw;
+    width: 93vw;
     height: 3.5vw;
     position: absolute;
     top: 73%;
-    left: 47%;
+    left: 49%;
     transform: translate(-50%, -50%);
 }
+<<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:css/main.css
 
 .progress-bar {
@@ -533,6 +534,9 @@ body{
   {
     cursor: pointer;
   }
+=======
+
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css
   #popup {
     display: none;
     position: fixed;
@@ -624,13 +628,9 @@ body{
 .enviar
 {
     position: absolute;
-    top: 80%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-#enviar
-{
-    color: white;
 }
 
 #popup2 {
@@ -923,6 +923,7 @@ body{
 >>>>>>> 4942f61 (style :lipstick: Responsive de main):main/main.css
 =======
 
+<<<<<<< HEAD:css/main.css
 .rx{
     width: 0.1vw;
 }
@@ -930,19 +931,41 @@ body{
 >>>>>>> 0e82691 (feat :sparkles: Creacion modulo eliminar):main/main.css
 =======
 #enviar
+=======
+#enviar1
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css
 {
-    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white;
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white;
 }
 #enviar2
 {
-    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
 }
 #enviar3
 {
-    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
 }
 #enviar4
 {
+<<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:css/main.css
     background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
@@ -956,3 +979,13 @@ body{
     background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 >>>>>>> 1d05591 (style :lipstick: Se añadieron colores de botones):main/main.css
+=======
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+    color: white
+}
+>>>>>>> 509ddd4 (style :lipstick: Estilo del modulo refrescar):main/main.css

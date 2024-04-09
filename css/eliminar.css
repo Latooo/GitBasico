@@ -11,11 +11,13 @@ body{
 #enviar
 {
     color: white;
-    background-color: #ff7514;width:18vw;
+    background-color: #ff7514;
+    width:18vw;
     height: 3vw;
-    border-radius: 10px;
+    border-radius: 30px;
     border: none;
     font-size: 1.5vw;
+    cursor: pointer;
 }
 
 .barras 
@@ -425,10 +427,7 @@ body{
     left: 47%;
     transform: translate(-50%, -50%);
 }
-  #enviar
-  {
-    cursor: pointer;
-  }
+
   #popup {
     display: none;
     position: fixed;
@@ -516,17 +515,6 @@ body{
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-.enviar
-{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-#enviar
-{
-    color: white;
 }
 
 #popup2 {
@@ -966,8 +954,4 @@ body{
         opacity: 100%;
         transform: scale(1);
     }
-}
-#enviar
-{
-    background-color: rgb(255, 128, 0);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
 }
