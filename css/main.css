@@ -133,7 +133,8 @@
 }
 #titulo
 {
-    font-size: 2vw;
+    font-size: 1.8vw;
+    font-weight: bold;
 }
 .subtitulo
 {
@@ -144,6 +145,207 @@
 }
 #subtitulo
 {
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     text-align: center;
+}
+
+#titulos{
+    font-size: 1.2vw;
+    font-weight: bold;
+}
+
+.indicador{
+    position: absolute;
+    top: 27%;
+    left: 6%;
+    transform: translate(-50%, -50%);
+}
+
+.descripcion{
+    position: absolute;
+    top: 27%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.categoria{
+    position: absolute;
+    top: 27%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+
+.fechainicio{
+    position: absolute;
+    top: 27%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.fechafinal{
+    position: absolute;
+    top: 27%;
+    left: 56%;
+    transform: translate(-50%, -50%);
+}
+
+.formula{
+    position: absolute;
+    top: 27%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+}
+
+.frecuencia{
+    position: absolute;
+    top: 27%;
+    left: 73%;
+    transform: translate(-50%, -50%);
+}
+
+.cumplimiento{
+    position: absolute;
+    top: 27%;
+    left: 81%;
+    transform: translate(-50%, -50%);
+}
+
+.area{
+    position: absolute;
+    top: 27%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion1{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 33%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+#textos{
+    font-size: 1.2vw;
+    color: gray;
+}
+
+.r1{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.r2{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+}
+
+.r3{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+
+.r4{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+}
+
+.r5{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.r6{
+    position: absolute;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+
+.r7{
+    position: absolute;
+    top: 50%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+.r8{
+    position: absolute;
+    top: 50%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+
+.r9{
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion2{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 41%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.seccion3{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 49%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion4{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 57%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion5{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 65%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+
+.seccion6{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 91vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 73%;
+    left: 47%;
+    transform: translate(-50%, -50%);
 }
