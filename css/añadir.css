@@ -135,3 +135,18 @@ body {
     width: 3vw;
     height: 3vw;
 }
+
+.formulario{
+    width: 40vw;
+    background: white;
+    padding: 2vw;
+    margin: auto;
+    margin-top: 8vw;
+    border-radius: 10px;
+    color: black;
+}
+.formulario .cliente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
