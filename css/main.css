@@ -1,0 +1,132 @@
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-bottom: 2px solid gray;
+    height: 100px;
+}
+
+.icono
+{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#icono
+{
+    width: 2.5vw;
+    height: 2.5vw;
+}
+.añadir
+{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+#foto
+{
+    width: 2vw;
+    height: 2vw;
+}
+.textañadir
+{
+    position: absolute;
+    top: 5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+}
+#text
+{
+    font-size: 1.5vw;
+}
+.refrescar
+{
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.textrefrescar
+{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.eliminar
+{
+    position: absolute;
+    top: 5%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.texteliminar
+{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+}
+.reportar
+{
+    position: absolute;
+    top: 5%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+.textreportar
+{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+}
+.ayuda
+{
+    position: absolute;
+    top: 5%;
+    left: 74%;
+    transform: translate(-50%, -50%);
+}
+.textayuda
+{
+    position: absolute;
+    top: 5%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+.user
+{
+    position: absolute;
+    top: 5%;
+    left: 97%;
+    transform: translate(-50%, -50%);
+}
+.campanita
+{
+    position: absolute;
+    top: 5%;
+    left: 94%;
+    transform: translate(-50%, -50%);
+}
+.settings
+{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+}
+#botoncitos
+{
+    width: 1vw;
+    height: 1.5vw;
+}
+#foto2
+{
+    width: 3vw;
+    height: 3vw;
+}
