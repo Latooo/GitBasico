@@ -3,6 +3,8 @@ body{
     margin: 0;
       padding: 0;
       box-sizing: border-box;
+      background-color: gray;
+      background-image: url(/media/pexels-pixabay-159400.png);
 }
 .icono
 {
@@ -140,8 +142,8 @@ body{
     width: 83vw;
     height: 45vw;
     z-index: 9999;
-    border-radius: 6%;  
-    border: 2px solid rgb(201, 131, 2);
+    border-radius: 30px;  
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 .titulo
 {
@@ -231,7 +233,10 @@ body{
     border: 2px solid rgb(201, 131, 2);
     width: 40vw;
     height: 10vw;
-    background-color: rgb(207, 206, 206);
+    border: none;
+    background-color: #ffe3d3;
+    border-radius: 20px;
+    font-size: 1vw;
 }
 .enviar
 {
@@ -241,10 +246,13 @@ body{
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+
+
 #enviar
 {
     color: white;
 }
+
 .volver
 {
     position: absolute;
@@ -252,5 +260,26 @@ body{
     left: 90%;
     transform: translate(-50%, -50%);
     cursor: pointer;
+    background-color: rgb(246, 161, 3);
+}
+#volver
+{
+    width:15vw;
+    height: 3vw;
+    border: none;
+    font-size: 1.5vw;
 }
 
+#volver:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
+}
+#enviar
+{
+    background-color: rgb(246, 161, 3);
+    width:18vw;
+    height: 3vw;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5vw;
+}

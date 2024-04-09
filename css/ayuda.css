@@ -265,3 +265,11 @@ body{
     transform: translate(-50%, -50%);
     cursor: pointer;
 }
+#enviar
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+#enviar2
+{
+    background-color: rgb(246, 161, 3);width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;
+}

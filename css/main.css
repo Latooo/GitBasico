@@ -896,4 +896,23 @@ body{
 .rx{
     width: 0.1vw;
 }
+<<<<<<< HEAD:css/main.css
 >>>>>>> 0e82691 (feat :sparkles: Creacion modulo eliminar):main/main.css
+=======
+#enviar
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+#enviar2
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+#enviar3
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+#enviar4
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
+>>>>>>> b4ea247 (style :lipstick: Correccion de estilo de css):main/main.css
