@@ -137,8 +137,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 83vw;
-    height: 45vw;
+    width: 80vw;
+    height: 40vw;
     z-index: 9999;
     border-radius: 30px;  
     box-shadow: 0 0 10px rgb(0, 0, 0, 1);
@@ -205,6 +205,7 @@ body{
 {
     border: 1px solid #ff7514;
     background-color: #ffe3d3;
+    width: 15vw;
 }
 #descripcion
 {
@@ -214,10 +215,7 @@ body{
     width: 30vw;
     height: 8vw;
 }
-#enviar
-{
-    color: white;
-}
+
 .submit
 {
     position: absolute;
@@ -274,21 +272,33 @@ body{
     top: 5%;
     left: 90%;
     transform: translate(-50%, -50%);
-    cursor: pointer;
 }
 #enviar
 {
-    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    color: white;
+    cursor: pointer;
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5vw;
 }
 #enviar2
 {
-    background-color: #ff7514;width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;color: white;
+    background-color: #ff7514;
+    width:13vw;
+    height:2vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1vw;
+    color: white;
 }
 #enviar:hover {
     background-color: rgba(246, 161, 3, 0.76);
     border-radius: 10px;
 }
 #enviar2:hover {
-    background-color: rgba(246, 161, 3, 0.76);
+    background-color: rgba(246, 133, 3, 0.76);
     border-radius: 10px;
 }

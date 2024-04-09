@@ -1,10 +1,10 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      background-color: gray;
-      background-image: url(/media/pexels-pixabay-159400.png);
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    background-image: url(/media/pexels-pixabay-159400.png);
 }
 .icono
 {
@@ -140,8 +140,8 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    width: 83vw;
-    height: 45vw;
+    width: 80vw;
+    height: 40vw;
     z-index: 9999;
     border-radius: 30px;  
     box-shadow: 0 0 10px rgb(0, 0, 0, 1);
@@ -150,7 +150,7 @@ body{
 {
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 #titulo
@@ -248,12 +248,6 @@ body{
     cursor: pointer;
 }
 
-
-#enviar
-{
-    color: white;
-}
-
 .volver
 {
     position: absolute;
@@ -262,6 +256,7 @@ body{
     transform: translate(-50%, -50%);
     cursor: pointer;
     background-color: #ff7514;
+    border-radius: 30px;
 }
 #volver
 {
@@ -269,22 +264,24 @@ body{
     height: 3vw;
     border: none;
     font-size: 1.5vw;
+    border-radius: 30px;
 }
 
 #enviar
 {
+    color: white;
     background-color: #ff7514;
     width:18vw;
     height: 3vw;
-    border-radius: 10px;
+    border-radius: 15px;
     border: none;
     font-size: 1.5vw;
 }
 #enviar:hover {
     background-color: #ff8000;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 #volver:hover {
     background-color: #ff8000;
-    border-radius: 10px;
+    border-radius: 30px;
 }
