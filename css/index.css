@@ -97,7 +97,7 @@ body
     transform: translate(-50%, -50%);
     width: 18vw;
     height: 3vw;
-    background-color: rgb(251, 105, 52);
+    background-color: #ff7514;
     border-radius: 20px;
 }
 #botontext
@@ -138,7 +138,7 @@ img
 #enviar
 {
     color: white;
-    background-color: rgb(246, 161, 3);width:18vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    background-color: #ff7514;width:18vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
 }
 @media only screen and (max-width: 430px) {
 
@@ -231,7 +231,7 @@ img
     transform: translate(-50%, -50%);
     width: 25vw;
     height: 10vw;
-    background-color: rgb(251, 105, 52);
+    background-color: #ff7514;
     border-radius: 20px;
 }
 #botontext
@@ -272,6 +272,6 @@ img
 #enviar
 {
     color: white;
-    background-color: rgb(246, 161, 3);width:54vw;height: 8vw;border-radius: 10px;border: none;font-size: 4vw;
+    background-color: #ff7514;width:54vw;height: 8vw;border-radius: 10px;border: none;font-size: 4vw;
 }
 }

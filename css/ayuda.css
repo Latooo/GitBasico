@@ -203,12 +203,12 @@ body{
 
 #email
 {
-    border: 1px solid orange;
+    border: 1px solid #ff7514;
     background-color: #ffe3d3;
 }
 #descripcion
 {
-    border: 1px solid orange;
+    border: 1px solid #ff7514;
     background-color: #ffe3d3;
     font-size: 1vw;
     width: 30vw;
@@ -278,11 +278,11 @@ body{
 }
 #enviar
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
 }
 #enviar2
 {
-    background-color: rgb(246, 161, 3);width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;color: white;
+    background-color: #ff7514;width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;color: white;
 }
 #enviar:hover {
     background-color: rgba(246, 161, 3, 0.76);

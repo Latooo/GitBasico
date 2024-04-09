@@ -903,7 +903,7 @@ body{
     font-size: 1vw;
     background: 
       radial-gradient(closest-side, white 79%, transparent 80% 100%),
-      conic-gradient(rgb(235, 134, 51) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
+      conic-gradient(rgb(255, 128, 0) calc(var(--progress-value) * 1%), rgba(158, 148, 148, 0.486) 0);
     animation: u-progress 2s 1 forwards;
   }
   
@@ -931,18 +931,19 @@ body{
 =======
 #enviar
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white;
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white;
 }
 #enviar2
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 #enviar3
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 #enviar4
 {
+<<<<<<< HEAD:css/main.css
 <<<<<<< HEAD:css/main.css
     background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
 }
@@ -951,3 +952,7 @@ body{
     background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 >>>>>>> ef27a8f (fix :bug: Arreglos de estilos y medidas):main/main.css
+=======
+    background-color: #ff7514;width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+}
+>>>>>>> 1d05591 (style :lipstick: Se añadieron colores de botones):main/main.css

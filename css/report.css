@@ -261,7 +261,7 @@ body{
     left: 90%;
     transform: translate(-50%, -50%);
     cursor: pointer;
-    background-color: rgb(246, 161, 3);
+    background-color: #ff7514;
 }
 #volver
 {
@@ -273,7 +273,7 @@ body{
 
 #enviar
 {
-    background-color: rgb(246, 161, 3);
+    background-color: #ff7514;
     width:18vw;
     height: 3vw;
     border-radius: 10px;
@@ -281,10 +281,10 @@ body{
     font-size: 1.5vw;
 }
 #enviar:hover {
-    background-color: rgba(246, 161, 3, 0.76);
+    background-color: #ff8000;
     border-radius: 10px;
 }
 #volver:hover {
-    background-color: rgba(246, 161, 3, 0.76);
+    background-color: #ff8000;
     border-radius: 10px;
 }
