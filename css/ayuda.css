@@ -1,3 +1,6 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .icono
 {
     position: absolute;
@@ -141,7 +144,7 @@
 {
     position: absolute;
     top: 10%;
-    left: 20%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 #titulo
@@ -249,4 +252,8 @@
     top: 80%;
     left: 80%;
     transform: translate(-50%, -50%);
+}
+#subtitulito
+{
+    font-size: 1vw;
 }
