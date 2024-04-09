@@ -931,18 +931,23 @@ body{
 =======
 #enviar
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white;
 }
 #enviar2
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 #enviar3
 {
-    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
 }
 #enviar4
 {
+<<<<<<< HEAD:css/main.css
     background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
 }
 >>>>>>> b4ea247 (style :lipstick: Correccion de estilo de css):main/main.css
+=======
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;color: white
+}
+>>>>>>> ef27a8f (fix :bug: Arreglos de estilos y medidas):main/main.css

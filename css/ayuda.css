@@ -1,5 +1,7 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: gray;
+    background-image: url(/media/pexels-pixabay-159400.png);
 }
 .icono
 {
@@ -138,8 +140,8 @@ body{
     width: 83vw;
     height: 45vw;
     z-index: 9999;
-    border-radius: 6%;  
-    border: 2px solid rgb(201, 131, 2);
+    border-radius: 30px;  
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
 }
 .titulo
 {
@@ -171,7 +173,11 @@ body{
 {
     position: absolute;
     top: 30%;
+<<<<<<< HEAD:css/ayuda.css
     left: 15%;
+=======
+    left: 19%;
+>>>>>>> ef27a8f (fix :bug: Arreglos de estilos y medidas):Ayuda/ayuda.css
     transform: translate(-50%, -50%);
     
 }
@@ -191,18 +197,22 @@ body{
 {
     position: absolute;
     top: 71%;
-    left: 30%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
+
 #email
 {
     border: 1px solid orange;
-    background-color: rgb(209, 207, 207);
+    background-color: #ffe3d3;
 }
 #descripcion
 {
     border: 1px solid orange;
-    background-color: rgb(209, 207, 207);
+    background-color: #ffe3d3;
+    font-size: 1vw;
+    width: 30vw;
+    height: 8vw;
 }
 #enviar
 {
@@ -272,5 +282,13 @@ body{
 }
 #enviar2
 {
-    background-color: rgb(246, 161, 3);width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;
+    background-color: rgb(246, 161, 3);width:13vw;height:2vw;border-radius: 10px;border: none;font-size: 1vw;color: white;
+}
+#enviar:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
+}
+#enviar2:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
 }

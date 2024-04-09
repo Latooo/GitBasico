@@ -962,3 +962,7 @@ body{
         transform: scale(1);
     }
 }
+#enviar
+{
+    background-color: rgb(246, 161, 3);width:15vw;height: 3vw;border-radius: 10px;border: none;font-size: 1.5vw;
+}
