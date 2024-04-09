@@ -522,4 +522,171 @@ body{
     top: 0%;
     left: 87%;
   }
+<<<<<<< HEAD:css/main.css
   
+=======
+  #enviar
+  {
+    cursor: pointer;
+  }
+  #popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  #popup:target {
+    display: block;
+  }
+
+  #overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+
+  #overlay:target {
+    display: block;
+  }
+
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #popup
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    background-color: white;
+    z-index: 9999;
+}
+.equis
+{
+    position: absolute;
+    top: 3%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+}
+#equis
+{
+    width: 1.5vw;
+    height: 1.5vw;
+}
+.nameuser
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.email
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#email
+{
+    text-align: center;
+}
+#imgpu
+{
+    width: 5vw;
+    height: 5vw;
+}
+.imgpu
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.enviar
+{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#enviar
+{
+    color: white;
+}
+
+#popup2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  #popup2:target {
+    display: block;
+  }
+
+  #overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+  }
+
+  #overlay:target {
+    display: block;
+  }
+
+  #close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+  #popup2
+{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10%;
+    background-color: white;
+    z-index: 9999;
+}
+.perfil
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.configuracion
+{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+>>>>>>> 71e74e5 (feat :sparkles: Se añadieron pop ups):main/main.css

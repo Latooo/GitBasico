@@ -257,3 +257,11 @@ body{
 {
     font-size: 1vw;
 }
+.volver
+{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
