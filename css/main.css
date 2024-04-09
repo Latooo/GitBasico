@@ -130,3 +130,26 @@ header
     width: 3vw;
     height: 3vw;
 }
+.titulo
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#titulo
+{
+    font-size: 2vw;
+}
+.subtitulo
+{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#subtitulo
+{
+    font-size: 1.4vw;
+    text-align: center;
+}
