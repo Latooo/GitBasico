@@ -1,3 +1,12 @@
+body {
+    background: transparent url('/media/pexels-pixabay-159400.png') 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+}
+
 .icono
 {
     position: absolute;
@@ -148,17 +157,88 @@
     font-size: 3vw;
     text-align: center;
 }
+.subtitulo
+{
+    position: absolute;
+    top: 25%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+#subtitulo
+{
+    font-size: 1.5vw;
+    text-align: center;
+}
+.img
+{
+    position: absolute;
+    top: 25%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+#img
+{
+    width: 2vw;
+    height: 2vw;
+}
 .img2
 {
     position: absolute;
     top: 25%;
     left: 85%;
     transform: translate(-50%, -50%);
-    z-index: 9999;
 }
 #img2
 {
     width: 15vw;
     height: 15vw;
     opacity: 0.2;
+}
+.tipo
+{
+    position: absolute;
+    top: 43%;
+    left: 19%;
+    transform: translate(-50%, -50%);
+    width: 13vw;
+    height: 13vw;
+}
+#font
+{
+    font-size: 1.2vw;
+}
+.subtitulo2
+{
+    position: absolute;
+    top: 50%;
+    left: 21%;
+    transform: translate(-50%, -50%);
+}
+.img3
+{
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+}
+.descripcion
+{
+    position: absolute;
+    top: 68%;
+    left: 36%;
+    transform: translate(-50%, -50%);
+}
+#descripcion
+{
+    border: 2px solid rgb(201, 131, 2);
+    width: 40vw;
+    height: 10vw;
+}
+.enviar
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
 }
