@@ -172,16 +172,33 @@ body{
 .subtitulo
 {
     position: absolute;
+<<<<<<< HEAD:css/ayuda.css
     top: 30%;
 <<<<<<< HEAD:css/ayuda.css
     left: 15%;
 =======
     left: 19%;
 >>>>>>> ef27a8f (fix :bug: Arreglos de estilos y medidas):Ayuda/ayuda.css
+=======
+    top: 25%;
+    left: 15%;
+>>>>>>> 3c9f684 (fix :bug: Modificacion de media query):Ayuda/ayuda.css
     transform: translate(-50%, -50%);
     
 }
 #subtitulo
+{
+    font-size: 1.5vw;
+}
+.preguntas
+{
+    position: absolute;
+    top: 150%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+}
+#preguntas
 {
     font-size: 1.5vw;
 }
@@ -213,7 +230,7 @@ body{
     background-color: #ffe3d3;
     font-size: 1vw;
     width: 30vw;
-    height: 8vw;
+    height: 6vw;
 }
 
 .submit

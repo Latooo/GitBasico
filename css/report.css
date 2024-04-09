@@ -207,6 +207,7 @@ body{
 #font
 {
     font-size: 1.2vw;
+    width: 14vw;
 }
 .subtitulo2
 {
@@ -258,30 +259,295 @@ body{
     background-color: #ff7514;
     border-radius: 30px;
 }
-#volver
-{
-    width:15vw;
-    height: 3vw;
-    border: none;
-    font-size: 1.5vw;
-    border-radius: 30px;
-}
-
 #enviar
 {
     color: white;
+    cursor: pointer;
     background-color: #ff7514;
-    width:18vw;
+    width:15vw;
     height: 3vw;
-    border-radius: 15px;
+    border-radius: 30px;
     border: none;
     font-size: 1.5vw;
 }
-#enviar:hover {
-    background-color: #ff8000;
+#enviar2
+{
+    background-color: #ff7514;
+    width:13vw;
+    height:2vw;
     border-radius: 30px;
+    border: none;
+    font-size: 1vw;
+    color: white;
 }
-#volver:hover {
-    background-color: #ff8000;
-    border-radius: 30px;
+#enviar:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
+}
+#enviar2:hover {
+    background-color: rgba(246, 133, 3, 0.76);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 430px)
+{
+    .icono
+    {
+        position: absolute;
+        top: 83%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #icono
+    {
+        width: 10vw;
+        height: 10vw;
+    }
+    .añadir
+    {
+        position: absolute;
+        top: 90%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+    }
+    #foto
+    {
+        width: 10vw;
+        height: 10vw;
+    }
+    .textañadir
+    {
+        position: absolute;
+        top: 5%;
+        left: 14%;
+        transform: translate(-50%, -50%);
+        color: black;
+        display: none;
+    }
+    #text
+    {
+        font-size: 1.5vw;
+    }
+    .refrescar
+    {
+        position: absolute;
+        top: 90%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .textrefrescar
+    {
+        position: absolute;
+        top: 5%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: black;
+        display: none;
+    }
+    .eliminar
+    {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .texteliminar
+    {
+        position: absolute;
+        top: 5%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+        color: black;
+        display: none;
+    }
+    .reportar
+    {
+        position: absolute;
+        top: 90%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+    }
+    .textreportar
+    {
+        position: absolute;
+        top: 5%;
+        left: 67%;
+        transform: translate(-50%, -50%);
+        color: black;
+        display: none;
+    }
+    .ayuda
+    {
+        position: absolute;
+        top: 90%;
+        left: 88%;
+        transform: translate(-50%, -50%);
+    }
+    .textayuda
+    {
+        position: absolute;
+        top: 5%;
+        left: 78%;
+        transform: translate(-50%, -50%);
+        color: black;
+        display: none;
+    }
+    .margen
+    {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 80vw;
+        height: 180vw;
+        border-radius: 30px;  
+        box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+    }
+    .titulo
+    {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #titulo
+    {
+        font-size: 7vw;
+        text-align: center;
+    }
+    .subtitulo
+    {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #subtitulo
+    {
+        font-size: 6vw;
+        text-align: center;
+        width: 50vw;
+    }
+    .img
+    {
+        position: absolute;
+        top: 25%;
+        left: 9%;
+        transform: translate(-50%, -50%);
+    }
+    #img
+    {
+        display: none;
+        width: 0vw;
+        height: 0vw;
+    }
+    .img2
+    {
+        position: absolute;
+        top: 15%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    }
+    #img2
+    {
+        width: 30vw;
+        height: 30vw;
+        opacity: 0.2;
+    }
+    .tipo
+    {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30vw;
+        height: 13vw;
+    }
+    #font
+    {
+        font-size: 4vw;
+        width: 60vw;
+        text-align: center;
+    }
+    .subtitulo2
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .img3
+    {
+        position: absolute;
+        top: 50%;
+        left: 9%;
+        transform: translate(-50%, -50%);
+    }
+    .descripcion
+    {
+        position: absolute;
+        top: 68%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    #descripcion
+    {
+        border: 2px solid rgb(201, 131, 2);
+        width: 40vw;
+        height: 40vw;
+        border: none;
+        background-color: #ffe3d3;
+        border-radius: 20px;
+        font-size: 3vw;
+        text-align: center;
+    }
+    .enviar
+    {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+    }
+    
+    .volver
+    {
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        background-color: #ff7514;
+        border-radius: 30px;
+        z-index: 9999;
+    }
+    #enviar
+    {
+        color: white;
+        cursor: pointer;
+        background-color: #ff7514;
+        width:25vw;
+        height: 10vw;
+        border-radius: 30px;
+        border: none;
+        font-size: 4vw;
+    }
+    #enviar2
+    {
+        background-color: #ff7514;
+        width:13vw;
+        height:2vw;
+        border-radius: 30px;
+        border: none;
+        font-size: 1vw;
+        color: white;
+    }
+    #enviar:hover {
+        background-color: rgba(246, 161, 3, 0.76);
+        border-radius: 10px;
+    }
+    #enviar2:hover {
+        background-color: rgba(246, 133, 3, 0.76);
+        border-radius: 10px;
+    }
 }
