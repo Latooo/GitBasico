@@ -104,37 +104,7 @@ body {
     transform: translate(-50%, -50%);
     color: black;
 }
-.user
-{
-    position: absolute;
-    top: 5%;
-    left: 97%;
-    transform: translate(-50%, -50%);
-}
-.campanita
-{
-    position: absolute;
-    top: 5%;
-    left: 94%;
-    transform: translate(-50%, -50%);
-}
-.settings
-{
-    position: absolute;
-    top: 5%;
-    left: 92%;
-    transform: translate(-50%, -50%);
-}
-#botoncitos
-{
-    width: 1vw;
-    height: 1.5vw;
-}
-#foto2
-{
-    width: 3vw;
-    height: 3vw;
-}
+
 
 .formulario{
     box-shadow: 0 0 20px 0 rgba(orangered);
@@ -181,4 +151,44 @@ body {
     background: orange;
     color: white;
     transition: background-color 1s ease-out;
+}
+
+.volver
+{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: #ff7514;
+    border-radius: 30px;
+}
+#enviar
+{
+    color: white;
+    cursor: pointer;
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5vw;
+}
+#enviar2
+{
+    background-color: #ff7514;
+    width:13vw;
+    height:2vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1vw;
+    color: white;
+}
+#enviar:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
+}
+#enviar2:hover {
+    background-color: rgba(246, 133, 3, 0.76);
+    border-radius: 10px;
 }
