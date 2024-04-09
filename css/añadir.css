@@ -4,7 +4,7 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
-    background-color: black;
+    background-color: white;
 }
 
 .icono
@@ -37,6 +37,7 @@ body {
     top: 5%;
     left: 14%;
     transform: translate(-50%, -50%);
+    color: black;
 }
 #text
 {
@@ -131,114 +132,4 @@ body {
 {
     width: 3vw;
     height: 3vw;
-}
-.margen
-{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    width: 83vw;
-    height: 45vw;
-    z-index: 9999;
-    border-radius: 6%;  
-    border: 2px solid rgb(201, 131, 2);
-}
-.titulo
-{
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    transform: translate(-50%, -50%);
-}
-#titulo
-{
-    font-size: 3vw;
-    text-align: center;
-}
-.subtitulo
-{
-    position: absolute;
-    top: 25%;
-    left: 23%;
-    transform: translate(-50%, -50%);
-}
-#subtitulo
-{
-    font-size: 1.5vw;
-    text-align: center;
-}
-.img
-{
-    position: absolute;
-    top: 25%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-#img
-{
-    width: 2vw;
-    height: 2vw;
-}
-.img2
-{
-    position: absolute;
-    top: 25%;
-    left: 85%;
-    transform: translate(-50%, -50%);
-}
-#img2
-{
-    width: 15vw;
-    height: 15vw;
-    opacity: 0.2;
-}
-.tipo
-{
-    position: absolute;
-    top: 43%;
-    left: 19%;
-    transform: translate(-50%, -50%);
-    width: 13vw;
-    height: 13vw;
-}
-#font
-{
-    font-size: 1.2vw;
-}
-.subtitulo2
-{
-    position: absolute;
-    top: 50%;
-    left: 21%;
-    transform: translate(-50%, -50%);
-}
-.img3
-{
-    position: absolute;
-    top: 50%;
-    left: 9%;
-    transform: translate(-50%, -50%);
-}
-.descripcion
-{
-    position: absolute;
-    top: 68%;
-    left: 36%;
-    transform: translate(-50%, -50%);
-}
-#descripcion
-{
-    border: 2px solid rgb(201, 131, 2);
-    width: 40vw;
-    height: 10vw;
-}
-.enviar
-{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    cursor: pointer;
 }
