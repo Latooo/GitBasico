@@ -288,12 +288,12 @@ body{
     background-color: rgba(246, 133, 3, 0.76);
     border-radius: 10px;
 }
-@media only screen and (max-width: 430px)
+@media only screen and (max-width: 431px)
 {
     .icono
     {
         position: absolute;
-        top: 83%;
+        top: 88%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -305,7 +305,7 @@ body{
     .añadir
     {
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 10%;
         transform: translate(-50%, -50%);
     }
@@ -330,7 +330,7 @@ body{
     .refrescar
     {
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 30%;
         transform: translate(-50%, -50%);
     }
@@ -346,7 +346,7 @@ body{
     .eliminar
     {
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
@@ -362,7 +362,7 @@ body{
     .reportar
     {
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 70%;
         transform: translate(-50%, -50%);
     }
@@ -378,7 +378,7 @@ body{
     .ayuda
     {
         position: absolute;
-        top: 90%;
+        top: 95%;
         left: 88%;
         transform: translate(-50%, -50%);
     }
@@ -394,7 +394,7 @@ body{
     .margen
     {
         position: absolute;
-        top: 40%;
+        top: 43%;
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: white;
@@ -444,8 +444,8 @@ body{
     .img2
     {
         position: absolute;
-        top: 15%;
-        left: 75%;
+        top: 10%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
     #img2
