@@ -137,16 +137,48 @@ body {
 }
 
 .formulario{
-    width: 40vw;
-    background: white;
-    padding: 2vw;
-    margin: auto;
-    margin-top: 8vw;
-    border-radius: 10px;
-    color: black;
+    box-shadow: 0 0 20px 0 rgba(orangered);
 }
-.formulario .cliente{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+
+.titulo-f{
+    text-align: center;
+    font-size: 3em;
+}
+.titulo-f span{
+    color: orangered;
+}
+.formulario > * {
+    padding: 1em;
+}
+.formulario-form {
+    background: white;
+    border-radius: 30px;
+    margin-top: 6%;
+}
+.formulario-form form{
+    margin: 0;
+    padding: 1em;
+}
+.formulario-form form button,
+.formulario-form form .block,
+.formulario-form form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    border-bottom: 2px solid orangered;
+}
+.formulario-form form button{
+    background: orangered;
+    border: 0;
+    border-radius: 30px;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.formulario-form form button:hover,
+.formulario-form form button:focus{
+    background: orange;
+    color: white;
+    transition: background-color 1s ease-out;
 }
