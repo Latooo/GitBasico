@@ -611,6 +611,12 @@ body{
 }
 #email
 {
+    font-size: 1vw;
+    text-align: center;
+}
+#hola
+{
+    font-size: 1.5vw;
     text-align: center;
 }
 #imgpu

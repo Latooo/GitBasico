@@ -319,3 +319,294 @@ body{
     background-color: rgba(246, 133, 3, 0.76);
     border-radius: 10px;
 }
+@media only screen and (max-width: 431px)
+{
+    .icono
+{
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#icono
+{
+    width: 10vw;
+    height: 10vw;
+}
+.añadir
+{
+    position: absolute;
+    top: 95%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+#foto
+{
+    width: 10vw;
+    height: 10vw;
+}
+.textañadir
+{
+    position: absolute;
+    top: 5%;
+    left: 14%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+#text
+{
+    font-size: 1.5vw;
+}
+.refrescar
+{
+    position: absolute;
+    top: 95%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.textrefrescar
+{
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+.eliminar
+{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.texteliminar
+{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+.reportar
+{
+    position: absolute;
+    top: 95%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+.textreportar
+{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+.ayuda
+{
+    position: absolute;
+    top: 95%;
+    left: 88%;
+    transform: translate(-50%, -50%);
+}
+.textayuda
+{
+    position: absolute;
+    top: 5%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+    color: black;
+    display: none;
+}
+
+.margen
+{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 80vw;
+    height: 180vw;
+    border-radius: 30px;  
+    box-shadow: 0 0 10px rgb(0, 0, 0, 1);
+}
+.titulo
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#titulo
+{
+    font-size: 7vw;
+    text-align: center;
+}
+.img2
+{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+#img2
+{
+    width: 15vw;
+    height: 15vw;
+    opacity: 0.2;
+}
+.subtitulo
+{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+#subtitulo
+{
+    text-align: center;
+    font-size: 6vw;
+}
+.preguntas
+{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+}
+#preguntas
+{
+    font-size: 4vw;
+}
+.subtitulo2
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.form
+{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#email
+{
+    border: 1px solid #ff7514;
+    background-color: #ffe3d3;
+    width: 50vw;
+    height: 6vw;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 5vw;
+}
+#descripcion
+{
+    border: 1px solid #ff7514;
+    background-color: #ffe3d3;
+    width: 50vw;
+    height: 6vw;
+    font-size: 5vw;
+    border-radius: 20px;
+    text-align: center;
+}
+#subtitulito
+{
+    display: none;
+}
+.submit
+{
+    position: absolute;
+    top: 155%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.contactos
+{
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#imgcont
+{
+    width: 10vw;
+    height: 10vw;
+}
+#imgcont2
+{
+    width: 13vw;
+    height: 13vw;
+}
+.wasa
+{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.ig
+{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.correo
+{
+    position: absolute;
+    top: 90%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.volver
+{
+    position: absolute;
+    top: 5%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+}
+#enviar
+{
+    color: white;
+    cursor: pointer;
+    background-color: #ff7514;
+    width:15vw;
+    height: 3vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.5vw;
+    display: none;
+}
+#enviar2
+{
+    background-color: #ff7514;
+    width:20vw;
+    height:9vw;
+    border-radius: 30px;
+    border: none;
+    font-size: 4vw;
+    color: white;
+}
+#enviar:hover {
+    background-color: rgba(246, 161, 3, 0.76);
+    border-radius: 10px;
+}
+#enviar2:hover {
+    background-color: rgba(246, 133, 3, 0.76);
+    border-radius: 10px;
+}
+}
