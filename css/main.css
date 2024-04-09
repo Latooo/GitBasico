@@ -164,7 +164,7 @@
 .descripcion{
     position: absolute;
     top: 27%;
-    left: 20%;
+    left: 22%;
     transform: translate(-50%, -50%);
 }
 
@@ -236,14 +236,14 @@
 .r1{
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 7%;
     transform: translate(-50%, -50%);
 }
 
 .r2{
     position: absolute;
     top: 50%;
-    left: 18%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
