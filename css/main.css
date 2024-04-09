@@ -728,6 +728,11 @@ body{
     font-size: 1vw;
     animation: progress 2s 1 forwards;
   }
+  .progress-bar progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
   /*---------------------------------------------------------*/
   @property --progress-value {
     syntax: "<integer>";
@@ -760,6 +765,11 @@ body{
     font-size: 1vw;
     animation: a-progress 2s 1 forwards;
 }
+.progress-bar1 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
   /*---------------------------------------------------------*/
   @property --progress-value {
     syntax: "<integer>";
@@ -792,6 +802,11 @@ body{
     font-size: 1vw;
     animation: e-progress 2s 1 forwards;
 }
+.progress-bar2 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
   /*---------------------------------------------------------*/
   @property --progress-value {
     syntax: "<integer>";
@@ -824,6 +839,11 @@ body{
     font-size: 1vw;
     animation: i-progress 2s 1 forwards;
 }
+.progress-bar3 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
   /*---------------------------------------------------------*/
   @property --progress-value {
     syntax: "<integer>";
@@ -856,6 +876,11 @@ body{
     font-size: 1vw;
     animation: o-progress 2s 1 forwards;
 }
+.progress-bar4 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
   /*---------------------------------------------------------*/
   @property --progress-value {
     syntax: "<integer>";
@@ -888,6 +913,11 @@ body{
     font-size: 1vw;
     animation: u-progress 2s 1 forwards;
 }
+.progress-bar5 progress{
+    height:0;
+    width:0;
+    visibility:hidden;
+  }
 /*----------------------------------------------------------------------------------------------------------------------*/
 <<<<<<< HEAD:css/main.css
 >>>>>>> 4942f61 (style :lipstick: Responsive de main):main/main.css
