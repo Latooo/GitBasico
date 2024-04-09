@@ -1,0 +1,87 @@
+body 
+{
+    background: transparent url('/media/pexels-pixabay-159400.png') 0% 0% no-repeat padding-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+.centro
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 40vw;
+    height: 25vw;
+    z-index: 9999;
+    border-radius: 6%;
+}
+.icono
+{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#icono
+{
+    width: 5vw;
+    height: 6vw;
+
+}
+.titulo
+{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    
+}
+#titulo
+{
+    font-size: 2vw;
+    text-align: center;
+}
+.pedrito
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#pedrito
+{
+    width: 5vw;
+    height: 5vw;
+}
+.titulo2
+{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30vw;
+    
+}
+#titulo2
+{
+    font-size: 2vw;
+    text-align: center;
+}
+.footer
+{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#footer
+{
+    font-size: 1vw;
+    text-align: center;   
+}
