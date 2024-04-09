@@ -220,6 +220,8 @@
 #descripcion
 {
     border: 2px solid rgb(201, 131, 2);
+    width: 40vw;
+    height: 10vw;
 }
 .enviar
 {
