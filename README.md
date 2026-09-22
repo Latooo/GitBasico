@@ -1,7 +1,12 @@
-<<<<<<< HEAD
-# PROYECTO-FILTRO_ORTIZRUBEN_LATORREDANIEL-
-=======
-# Proyecto del modulo HTML/CSS
-# Elaborado por Daniel Latorre y Ruben Ortiz
-# Agradecimientos a Ing. Pedro Gomez y Campuslands
->>>>>>> b86a3fa (style :lipstick: Modificacion medidas)
+# Proyecto módulo HTML/CSS
+
+Sitio web estático desarrollado como proyecto del módulo de **HTML y CSS** en Campuslands.
+
+**Demo:** https://latooo.github.io/GitBasico/index.html
+
+- Elaborado por **Daniel Latorre** y **Rubén Ortiz**.
+- Agradecimientos al Ing. Pedro Gómez y a Campuslands.
+
+## Stack
+
+`HTML5` · `CSS3` · `GitHub Pages`
